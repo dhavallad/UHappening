@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UHappening.CreateEvent">
+  <ContentPage.Resourse>
+    <ResourceDictionary>
+      <Style x:Key="CustomEntryStyle" TargetType="Entry">
+        <Setter Property="WidthRequest" Value="300"></Setter>
+      </Style>
+    </ResourceDictionary>
+  </ContentPage.Resourse>
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <StackLayout Padding="30,30,30,50" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+      <Label Text="Create Event" HorizontalTextAlignment="Center" Font="30" ></Label>
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="eventName" WidthRequest="300" Placeholder="Event Name" ></Entry>
+      </Grid>
+      <!--<Label Text="First Name" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="isPrivate" Placeholder="Private Event" Style="{StaticResource CustomEntryStyle}" ></Entry>
+      </Grid>
+      <!--<Label Text="Last Name" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="eventType" Placeholder="Event Type" Style="{StaticResource CustomEntryStyle}" ></Entry>
+      </Grid>
+      <!--<Label Text="Albany ID" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="eventlocation" Placeholder="Location" Style="{StaticResource CustomEntryStyle}" ></Entry>
+      </Grid>
+      <!--<Label Text="Email ID" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="eventStart" Placeholder="Start Time" Style="{StaticResource CustomEntryStyle}" ></Entry>
+      </Grid>
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="eventEnd" Placeholder="End Time" Style="{StaticResource CustomEntryStyle}" ></Entry>
+      </Grid>
+      <!--<Label Text="ConfirmPassword" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="eventCapacity" Placeholder="Capacity(Optional)" Style="{StaticResource CustomEntryStyle}" ></Entry>
+      </Grid>
+      <Grid Padding="0,15,0,0">
+        <Button Text="Create Event" Clicked="CreateEventClicked"></Button>
+      </Grid>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

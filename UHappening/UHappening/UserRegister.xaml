@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UHappening.UserRegister">
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <StackLayout Padding="30,30,30,50" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+      <Label Text="Registration Form" HorizontalTextAlignment="Center" Font="30" ></Label>
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="req_UserName" WidthRequest="300" Placeholder="Username" ></Entry>
+      </Grid>
+      <!--<Label Text="First Name" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="fName" WidthRequest="300" Placeholder="First Name" ></Entry>
+      </Grid>
+      <!--<Label Text="Last Name" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="lName" WidthRequest="300" Placeholder="Last Name" ></Entry>
+      </Grid>
+      <!--<Label Text="Albany ID" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="albanyId" WidthRequest="300" Placeholder="Albany ID" ></Entry>
+      </Grid>
+      <!--<Label Text="Email ID" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="emailId" WidthRequest="300" Placeholder="Albany Email ID" ></Entry>
+      </Grid>
+      <!--<Label Text="UserName" ></Label>--><!--
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="UserName" WidthRequest="300" Placeholder="Username" ></Entry>
+      </Grid>-->
+      <!--<Label Text="Password" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="newPass" WidthRequest="300" IsPassword="True" Placeholder="New Password" ></Entry>
+      </Grid>
+      <!--<Label Text="ConfirmPassword" ></Label>-->
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="ConfPass" WidthRequest="300" IsPassword="True" Placeholder="Confirm Password" ></Entry>
+      </Grid>
+      <Grid Padding="0,15,0,0">
+        <Button Text="Register" Clicked="UserRegisteration"></Button>
+      </Grid>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>
