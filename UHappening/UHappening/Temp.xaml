@@ -3,5 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:UHappening"
              x:Class="UHappening.Temp">
-  <Label Text="Whatever" VerticalOptions="Center" HorizontalOptions="Center" />
+    <StackLayout Orientation="Vertical">
+        <StackLayout VerticalOptions="Center" Orientation="Vertical">
+            <Slider x:Name="MainSlider" Minimum="0" Maximum="100"></Slider>
+            <Label x:Name="MainLabel" Font="120" HorizontalOptions="Center" Text="{Binding Value, Source={x:Reference MainSlider}}"></Label>
+            <Label Text="Whatever" VerticalOptions="Center" HorizontalOptions="Center" />
+            <DatePicker  x:Name="pickerNotificationDate"
+                     MinimumDate ="{Binding PropertyMinimumDate}"></DatePicker>
+        </StackLayout>
+        <StackLayout Padding="0,15,0,0" Orientation="Horizontal">
+            <Button Text="Private Event?" Clicked="IsPrivateClicked"></Button>
+            <Grid  Padding="8,0,0,0">
+                <Label x:Name ="isPrivate" WidthRequest="200" VerticalTextAlignment="Center" Font="19" ></Label>
+            </Grid>
+            <!--Style="{StaticResource CustomEntryStyle}"-->
+        </StackLayout>
+    </StackLayout>
+
 </ContentPage>

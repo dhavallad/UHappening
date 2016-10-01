@@ -17,8 +17,24 @@ namespace UHappening {
     public partial class Temp : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Slider MainSlider;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label MainLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.DatePicker pickerNotificationDate;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label isPrivate;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Temp));
+            MainSlider = this.FindByName<global::Xamarin.Forms.Slider>("MainSlider");
+            MainLabel = this.FindByName<global::Xamarin.Forms.Label>("MainLabel");
+            pickerNotificationDate = this.FindByName<global::Xamarin.Forms.DatePicker>("pickerNotificationDate");
+            isPrivate = this.FindByName<global::Xamarin.Forms.Label>("isPrivate");
         }
     }
 }

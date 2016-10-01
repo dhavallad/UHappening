@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Remoting_InternalError" xml:space="preserve">
+    <value>Server encountered an internal error. To get more info turn on customErrors in the server's config file.</value>
+  </data>
+  <data name="Remoting_Tcp_UnknownProtocolVersion" xml:space="preserve">
+    <value>Unknown tcp channel protocol version: {0}</value>
+  </data>
+  <data name="Remoting_UnknownError_Num" xml:space="preserve">
+    <value>Unknown error "{0}".</value>
+  </data>
+  <data name="Remoting_Tcp_AuthValidationFailed" xml:space="preserve">
+    <value>Authentication validation failed for: {0}</value>
+  </data>
+  <data name="Remoting_RemoteApplicationMetadataNotEnabled" xml:space="preserve">
+    <value>Cannot serve request because RemoteApplicationMetadata has not been enabled in the server's config file.</value>
+  </data>
+  <data name="Remoting_Tcp_UrlMustHavePort" xml:space="preserve">
+    <value>Tcp channel url must have a port number: {0}</value>
+  </data>
+  <data name="Remoting_Socket_Accept" xml:space="preserve">
+    <value>Error accepting the socket: {0}</value>
+  </data>
+  <data name="Remoting_DeserializeMessage" xml:space="preserve">
+    <value>Error deserializing message.</value>
+  </data>
+  <data name="Remoting_Suds_WsdlMissingMessage" xml:space="preserve">
+    <value>Missing Wsdl Message {0}.</value>
+  </data>
+  <data name="Remoting_SslCert_Required" xml:space="preserve">
+    <value>A certificate file is required for Ssl</value>
+  </data>
+  <data name="Remoting_Channels_BadCtorArgs" xml:space="preserve">
+    <value>Bad or unexpected argument passed to channel constructor: {0}</value>
+  </data>
+  <data name="Remoting_Soap_InvalidSoapAction" xml:space="preserve">
+    <value>Invalid SOAPAction specified: {0}</value>
+  </data>
+  <data name="Remoting_InvalidSid" xml:space="preserve">
+    <value>The Sid is not valid.</value>
+  </data>
+  <data name="Remoting_Tcp_AuthenticationRequiredForAuth" xml:space="preserve">
+    <value>Authentication should be enabled for encryption support</value>
+  </data>
+  <data name="Remoting_Suds_TriedToRemoveNonexistentType" xml:space="preserve">
+    <value>The type being removed does not exist.</value>
+  </data>
+  <data name="Remoting_Tcp_ServerAuthenticationFailed" xml:space="preserve">
+    <value>Authentication failure on server</value>
+  </data>
+  <data name="Remoting_Suds_SoapStyleNotSupported" xml:space="preserve">
+    <value>Soap Style {0} not supported.</value>
+  </data>
+  <data name="Remoting_Ipc_TokenImpersonationFailure" xml:space="preserve">
+    <value>A remote side security requirement was not fulfilled during authentication. Try increasing client ImpersonationLevel</value>
+  </data>
+  <data name="Remoting_Suds_RpcBindingsMissing" xml:space="preserve">
+    <value>No Bindings with Soap, Rpc and Encoded elements.</value>
+  </data>
+  <data name="Remoting_Ipc_ConnectIpcFailed" xml:space="preserve">
+    <value>Failed to connect to an IPC Port: {0} </value>
+  </data>
+  <data name="Remoting_Suds_DuplicatePortTypesOperationName" xml:space="preserve">
+    <value>PortType operation has duplicate names, the child elements (input or output) doesn't have a name attribute, operation: {0}</value>
+  </data>
+  <data name="Remoting_Tcp_ExpectingReplyOp" xml:space="preserve">
+    <value>Expecting a tcp channel Reply operation: {0}</value>
+  </data>
+  <data name="Remoting_TooManyCustomAttributes" xml:space="preserve">
+    <value>Too many custom attributes.</value>
+  </data>
+  <data name="Remoting_Suds_WsdlInvalidMessage" xml:space="preserve">
+    <value>Invalid Wsdl message/portType/binding, missing input/output section or portType/binding's operation/name do not correspond: {0}.</value>
+  </data>
+  <data name="Remoting_UnknownObjectInCodeStreamList" xml:space="preserve">
+    <value>Unknown object type in code stream list.</value>
+  </data>
+  <data name="Remoting_StartingTCPChannel" xml:space="preserve">
+    <value>Error starting TCP Channel: {0}</value>
+  </data>
+  <data name="Remoting_ChnlSink_WantNullResponseStream" xml:space="preserve">
+    <value>The responseStream out parameter cannot be set before the response message reaches the server formatter sink.</value>
+  </data>
+  <data name="Remoting_Suds_DuplicatePortSectionName" xml:space="preserve">
+    <value>PortType operation child elements (input or output) name attribute must be unique {0}</value>
+  </data>
+  <data name="Remoting_Suds_UnknownSudsElementInInterface" xml:space="preserve">
+    <value>Encountered an unknown SUDS element declaration in parsing interface {0}.</value>
+  </data>
+  <data name="Remoting_Ipc_CreateIpcFailed" xml:space="preserve">
+    <value>Failed to create an IPC Port: {0}</value>
+  </data>
+  <data name="Remoting_SoapActionMissing" xml:space="preserve">
+    <value>Missing SOAPAction header.</value>
+  </data>
+  <data name="Remoting_MissingSoapMsgSeqNum" xml:space="preserve">
+    <value>Missing SOAPMsgSeqNum header.</value>
+  </data>
+  <data name="Remoting_Suds_UnknownElementInInterface" xml:space="preserve">
+    <value>Encountered an unknown element declaration in parsing interface {0}.</value>
+  </data>
+  <data name="Remoting_Http_InvalidDataReceived" xml:space="preserve">
+    <value>Invalid data received.</value>
+  </data>
+  <data name="Remoting_Channels_ChannelSinkNotMsgSink" xml:space="preserve">
+    <value>The first client channel sink must implement IMessageSink as well as IClientChannelSink.</value>
+  </data>
+  <data name="Remoting_MissingContentType" xml:space="preserve">
+    <value>Missing Content-type header.</value>
+  </data>
+  <data name="Remoting_Suds_InvalidEnumType" xml:space="preserve">
+    <value>Invalid Enum Type: {0}.</value>
+  </data>
+  <data name="Remoting_Suds_CantResolveTypeInNS" xml:space="preserve">
+    <value>Failed to resolve type {0} in schema NS {1}.</value>
+  </data>
+  <data name="Remoting_Suds_WsdlInvalidPortType" xml:space="preserve">
+    <value>Invalid Wsdl PortType {0}.</value>
+  </data>
+  <data name="Remoting_Suds_UnknownElementAtRootLevel" xml:space="preserve">
+    <value>Encountered an unknown element declaration at the root level, Looking for Definitions, found {0}.</value>
+  </data>
+  <data name="Remoting_UnableToCreateProgID" xml:space="preserve">
+    <value>Unable to create COM class, ProgID = {0}</value>
+  </data>
+  <data name="Remoting_Tcp_ExpectingEndOfHeaders" xml:space="preserve">
+    <value>Expecting end of tcp channel headers: {0}</value>
+  </data>
+  <data name="Remoting_Http_WrongChannelMode_HttpsExpected" xml:space="preserve">
+    <value>This application cannot accept a non-secure request. It has already serviced an 'https' request. Please configure this IIS virtual directory so that it will only accept non-secure requests, or so that it will only accept secure requests.</value>
+  </data>
+  <data name="Remoting_Socket_UnderlyingSocketClosed" xml:space="preserve">
+    <value>Underlying connection was closed: Either there was a fatal error on the server or client authentication failed</value>
+  </data>
+  <data name="Remoting_Suds_EnumMustBeEmpty" xml:space="preserve">
+    <value>Enumeration must be an empty element.</value>
+  </data>
+  <data name="Remoting_Suds_UnknownSudsElementInOnewayMethod" xml:space="preserve">
+    <value>Encountered an unknown SUDS element declaration in parsing oneway method {0}.                         </value>
+  </data>
+  <data name="Remoting_HttpMethodIsNull" xml:space="preserve">
+    <value>HttpMethod is null.</value>
+  </data>
+  <data name="Remoting_Stream_UnknownReadError" xml:space="preserve">
+    <value>An unknown error occurred while attempting to read from a stream.</value>
+  </data>
+  <data name="Remoting_Ipc_ReadFailure" xml:space="preserve">
+    <value>Failed to read from an IPC Port: {0}</value>
+  </data>
+  <data name="Remoting_Suds_CantResolveNestedType" xml:space="preserve">
+    <value>Failed to resolve Nested Type {0} in schema NS: {1}</value>
+  </data>
+  <data name="Remoting_EmptyResponseContentType" xml:space="preserve">
+    <value>Response Content type is empty.</value>
+  </data>
+  <data name="Remoting_Tcp_AuthenticationConfigClient" xml:space="preserve">
+    <value>TokenImpersonationLevel or ProtectionLevel settings are only valid when secure="true"</value>
+  </data>
+  <data name="Remoting_Suds_AssemblyNotFound" xml:space="preserve">
+    <value>Assembly {0} not found.</value>
+  </data>
+  <data name="Remoting_Suds_UnknownSudsElementInRRMethod" xml:space="preserve">
+    <value>Encountered an unknown SUDS element declaration in parsing RR method {0}.</value>
+  </data>
+  <data name="Remoting_Tcp_UnrecognizedStringFormat" xml:space="preserve">
+    <value>Unrecognized string format: {0}</value>
+  </data>
+  <data name="Remoting_Http_UseIISToSecureHttpServer" xml:space="preserve">
+    <value>Host the service in IIS with Integrated Windows Authentication to secure the server</value>
+  </data>
+  <data name="Remoting_Tcp_SocketTimeoutNegative" xml:space="preserve">
+    <value>Socket timeout cannot be negative</value>
+  </data>
+  <data name="Remoting_MissingCRLF" xml:space="preserve">
+    <value>HTTP request is missing a CRLF</value>
+  </data>
+  <data name="Remoting_Channels_InvalidRequestFormat" xml:space="preserve">
+    <value>Invalid client request format.</value>
+  </data>
+  <data name="Remoting_Tcp_ExpectingPreamble" xml:space="preserve">
+    <value>Tcp channel protocol violation: expecting preamble.</value>
+  </data>
+  <data name="Remoting_Suds_CantResolveNestedTypeNS" xml:space="preserve">
+    <value>Invalid Suds binding for Nested Type {0} in schema NS: {1}</value>
+  </data>
+  <data name="Remoting_Tcp_ExpectingRequestOp" xml:space="preserve">
+    <value>Expecting a tcp channel Request operation: {0}</value>
+  </data>
+  <data name="Remoting_Stream_StreamIsClosed" xml:space="preserve">
+    <value>Stream is closed. </value>
+  </data>
+  <data name="Remoting_Http_LimitListenerOfOne" xml:space="preserve">
+    <value>This channel is already listening for data, and can't be hooked into at this stage.</value>
+  </data>
+  <data name="Remoting_Tcp_ServerAuthorizationEndpointFailed" xml:space="preserve">
+    <value>Remote Endpoint is not authorized to connect to this endpoint</value>
+  </data>
+  <data name="Remoting_Ipc_Win9x" xml:space="preserve">
+    <value>Ipc Channel is only supported on Windows NT based systems</value>
+  </data>
+  <data name="Remoting_Ipc_NoPortNameSpecified" xml:space="preserve">
+    <value>A port name must be specified when instantiating an IPC Server Channel</value>
+  </data>
+  <data name="Remoting_InvalidOperation_IsSecuredCannotBeChangedOnRegisteredChannels" xml:space="preserve">
+    <value>Security setting cannot be changed for registered channels.</value>
+  </data>
+  <data name="Remoting_Tcp_AuthenticationConfigServer" xml:space="preserve">
+    <value>Impersonate or ProtectionLevel settings are only valid when secure="true"</value>
+  </data>
+  <data name="Remoting_InvalidStreamSize" xml:space="preserve">
+    <value>Invalid size of serialized stream: {0}</value>
+  </data>
+  <data name="Remoting_Suds_UnknownElementInRRMethod" xml:space="preserve">
+    <value>Encountered an unknown element declaration in parsing RR method {0}.</value>
+  </data>
+  <data name="Remoting_Suds_AttributeNotFound" xml:space="preserve">
+    <value>Attribute {0} not found. Line:({1},{2}) ElementName: {3}.</value>
+  </data>
+  <data name="Remoting_Ipc_ImpersonationFailed" xml:space="preserve">
+    <value>Failed to impersonate an IPC Client: {0}</value>
+  </data>
+  <data name="Remoting_Suds_WsdlMissingMessagePart" xml:space="preserve">
+    <value>Missing Wsdl Message Part {0}.</value>
+  </data>
+  <data name="Remoting_DispatchMessage" xml:space="preserve">
+    <value>Error dispatching message.</value>
+  </data>
+  <data name="Remoting_Providers_Config_NotExpectingProviderData" xml:space="preserve">
+    <value>{0} does not expect any configuration provider data.</value>
+  </data>
+  <data name="Remoting_SoapActionMissingQuotes" xml:space="preserve">
+    <value>SoapAction must be within double-quotes.</value>
+  </data>
+  <data name="Remoting_Suds_WsdlInvalidArraySyntax" xml:space="preserve">
+    <value>Invalid Array Syntax {0}.</value>
+  </data>
+  <data name="Remoting_Http_WrongResponseStream" xml:space="preserve">
+    <value>Http transport sink was not given the stream that it returned from GetResponseStream().</value>
+  </data>
+  <data name="Remoting_Suds_CantResolveElementInNS" xml:space="preserve">
+    <value>Failed to resolve element {0} in schema NS {1}.</value>
+  </data>
+  <data name="Remoting_Tcp_AuthenticationFailed" xml:space="preserve">
+    <value>Authentication failure</value>
+  </data>
+  <data name="Remoting_ReadingSocket" xml:space="preserve">
+    <value>Error reading from socket.</value>
+  </data>
+  <data name="Remoting_AssemblyLoadFailed" xml:space="preserve">
+    <value>Could not load assembly: {0}.</value>
+  </data>
+  <data name="Remoting_SocketConnectionError" xml:space="preserve">
+    <value>Error connecting socket.</value>
+  </data>
+  <data name="Remoting_Providers_Config_UnknownProperty" xml:space="preserve">
+    <value>{0} does not recognize '{1}' configuration property.</value>
+  </data>
+  <data name="Remoting_ServerIsBusy" xml:space="preserve">
+    <value>Server is busy. Try request again later.</value>
+  </data>
+  <data name="Remoting_Suds_UnknownElementInOnewayMethod" xml:space="preserve">
+    <value>Encountered an unknown element declaration in parsing oneway method {0}.</value>
+  </data>
+  <data name="Remoting_MissingRequestedURIHeader" xml:space="preserve">
+    <value>Missing RequestedURI header.</value>
+  </data>
+  <data name="Remoting_Tcp_GenericServerError" xml:space="preserve">
+    <value>An error occurred while processing the request on the server: {0}</value>
+  </data>
+  <data name="Remoting_Http_ContentTooLong" xml:space="preserve">
+    <value>HTTP content length exceeded specified value.</value>
+  </data>
+  <data name="Remoting_AcceptSocket" xml:space="preserve">
+    <value>Error accepting the socket.</value>
+  </data>
+  <data name="Remoting_Http_ChunkedEncodingError" xml:space="preserve">
+    <value>HTTP chunked encoding error found.</value>
+  </data>
+  <data name="Remoting_Tcp_ExpectingContentLengthHeader" xml:space="preserve">
+    <value>Expecting tcp chunked or content-length header: {0}</value>
+  </data>
+  <data name="Remoting_Tcp_ChunkedEncodingError" xml:space="preserve">
+    <value>TCP channel chunked encoding error found.</value>
+  </data>
+  <data name="Remoting_Http_UnableToReadFirstLine" xml:space="preserve">
+    <value>Error reading first line of HTTP request.</value>
+  </data>
+  <data name="Remoting_HttpContextNotAvailable" xml:space="preserve">
+    <value>The HttpContext is not available.</value>
+  </data>
+  <data name="Remoting_Tcp_ServerAuthorizationIdentityFailed" xml:space="preserve">
+    <value>User identity is not authorized to connect to this endpoint</value>
+  </data>
+  <data name="Remoting_Suds_DelegateWithoutInvoke" xml:space="preserve">
+    <value>Delegate without Invoke method encountered.</value>
+  </data>
+  <data name="Remoting_Http_WrongChannelMode_HttpExpected" xml:space="preserve">
+    <value>This application cannot accept an 'https' request. It has already serviced a non-secure request. Please configure this IIS virtual directory so that it will only accept non-secure requests, or so that it will only accept secure requests.</value>
+  </data>
+  <data name="Remoting_Ipc_AuthenticationConfig" xml:space="preserve">
+    <value>Impersonate or TokenImpersonationLevel settings are only valid when secure="true"</value>
+  </data>
+  <data name="Remoting_nonClsCompliantException" xml:space="preserve">
+    <value>A non-CLS Compliant Exception (i.e. an object that does not derive from System.Exception) was thrown.</value>
+  </data>
+  <data name="Remoting_Suds_WsdlInvalidStringSyntax" xml:space="preserve">
+    <value>String Syntax Not Handled {0}</value>
+  </data>
+  <data name="Remoting_Tcp_UnknownHeaderType" xml:space="preserve">
+    <value>Unknown tcp channel header format '{1}' on header '{0}'</value>
+  </data>
+  <data name="Remoting_TypeNotFoundFromUri" xml:space="preserve">
+    <value>No object exists at the ObjectUri: {0}</value>
+  </data>
+  <data name="Remoting_NoReceiverRegistered" xml:space="preserve">
+    <value>No receiver registered</value>
+  </data>
+  <data name="Remoting_Ipc_WriteFailure" xml:space="preserve">
+    <value>Failed to write to an IPC Port: {0}</value>
+  </data>
+  <data name="Remoting_Suds_WsdlMissingPortTypeOperation" xml:space="preserve">
+    <value>Missing Wsdl PortType operation {0}.</value>
+  </data>
+  <data name="Remoting_MetadataNotEnabled" xml:space="preserve">
+    <value>Cannot serve request because Metadata has been disabled in the server's config file.</value>
+  </data>
+  <data name="Remoting_ChnlSink_UriNotPublished" xml:space="preserve">
+    <value>Requested Service not found</value>
+  </data>
+  <data name="Remoting_Channels_RequestTimedOut" xml:space="preserve">
+    <value>The request timed out.</value>
+  </data>
+  <data name="Remoting_Tcp_IncorrectHeaderFormat" xml:space="preserve">
+    <value>Incorrect format '{0}' given for header '{1}'</value>
+  </data>
+  <data name="Arg_EndOfStreamException" xml:space="preserve">
+    <value>Attempted to read past the end of stream.</value>
+  </data>
+  <data name="Remoting_FatalServerError" xml:space="preserve">
+    <value>Fatal error occurred at the server.</value>
+  </data>
+  <data name="Remoting_Suds_Import" xml:space="preserve">
+    <value>Could not resolve file location {0}.</value>
+  </data>
+  <data name="Remoting_UnsupportedMIMEType" xml:space="preserve">
+    <value>Unsupported MIME type: {0}</value>
+  </data>
+  <data name="Remoting_Suds_DuplicateParameter" xml:space="preserve">
+    <value>Parameter with same name already exists.</value>
+  </data>
+  <data name="Remoting_Suds_CantResolveSchemaNS" xml:space="preserve">
+    <value>Failed to resolve schema NS: {0} type: {1}</value>
+  </data>
+  <data name="Remoting_Ipc_Busy" xml:space="preserve">
+    <value>Port is Busy: {0}</value>
+  </data>
+</root>

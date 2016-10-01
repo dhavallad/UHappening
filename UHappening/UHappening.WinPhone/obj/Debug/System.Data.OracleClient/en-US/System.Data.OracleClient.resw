@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADP_LobPositionMustBeEven" xml:space="preserve">
+    <value>CLOB and NCLOB require even number of bytes for OracleLob.Position when modifying the LOB.</value>
+  </data>
+  <data name="ADP_CannotOpenLobWithDifferentMode" xml:space="preserve">
+    <value>Cannot open the LOB object with mode {0} when it is already open in mode {1}.</value>
+  </data>
+  <data name="DbParameter_Offset" xml:space="preserve">
+    <value>Offset in variable length data types.</value>
+  </data>
+  <data name="DbDataAdapter_DeleteCommand" xml:space="preserve">
+    <value>Used during Update for deleted rows in DataSet.</value>
+  </data>
+  <data name="ADP_NoParallelTransactions" xml:space="preserve">
+    <value>OracleConnection does not support parallel transactions.</value>
+  </data>
+  <data name="ADP_ParameterSizeIsTooLarge" xml:space="preserve">
+    <value>Parameter '{0}': Value is too large to bind.</value>
+  </data>
+  <data name="ADP_DataIsNull" xml:space="preserve">
+    <value>The value is Null.</value>
+  </data>
+  <data name="ADP_ConnectionAlreadyOpen" xml:space="preserve">
+    <value>The connection was not closed. {0}</value>
+  </data>
+  <data name="ADP_TransactionCompleted" xml:space="preserve">
+    <value>This OracleTransaction has completed; it is no longer usable.</value>
+  </data>
+  <data name="ADP_DeriveParametersNotSupported" xml:space="preserve">
+    <value>{0} DeriveParameters only supports CommandType.StoredProcedure, not CommandType.{1}</value>
+  </data>
+  <data name="MDF_DataTableDoesNotExist" xml:space="preserve">
+    <value>The collection '{0}' is missing from the metadata XML.</value>
+  </data>
+  <data name="DbCommand_CommandTimeout" xml:space="preserve">
+    <value>Time to wait for command to execute.</value>
+  </data>
+  <data name="ADP_BadOracleClientVersion" xml:space="preserve">
+    <value>System.Data.OracleClient requires Oracle client software version 8.1.7 or greater.</value>
+  </data>
+  <data name="OracleConnection_DataSource" xml:space="preserve">
+    <value>Current data source, 'Data Source=X' in the connection string.</value>
+  </data>
+  <data name="ADP_InvalidKey" xml:space="preserve">
+    <value>Invalid keyword, contain one or more of 'no characters', 'control characters', 'leading or trailing whitespace' or 'leading semicolons'.</value>
+  </data>
+  <data name="ADP_SQLParserInternalError" xml:space="preserve">
+    <value>Internal DbSqlParser failure.</value>
+  </data>
+  <data name="MDF_MissingRestrictionRow" xml:space="preserve">
+    <value>A restriction exists for which there is no matching row in the restrictions collection.</value>
+  </data>
+  <data name="ADP_ConnectionStringSyntax" xml:space="preserve">
+    <value>Format of the initialization string does not conform to specification starting at index {0}.</value>
+  </data>
+  <data name="ADP_InvalidDataTypeForValue" xml:space="preserve">
+    <value>Invalid data type {0} for parameter value of type {1}.</value>
+  </data>
+  <data name="ADP_UnsupportedIsolationLevel" xml:space="preserve">
+    <value>Invalid IsolationLevel parameter: must be ReadCommitted or Serializable.</value>
+  </data>
+  <data name="OracleCommandBuilder_DataAdapter" xml:space="preserve">
+    <value>The DataAdapter for which to automatically generate OracleCommands</value>
+  </data>
+  <data name="ADP_UnexpectedReturnCode" xml:space="preserve">
+    <value>Unexpected return code: {0}</value>
+  </data>
+  <data name="DataCategory_Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="OracleCategory_InfoMessage" xml:space="preserve">
+    <value>InfoMessage</value>
+  </data>
+  <data name="DbParameter_Direction" xml:space="preserve">
+    <value>Input, output, or bidirectional parameter.</value>
+  </data>
+  <data name="ADP_CollectionIsNotParent" xml:space="preserve">
+    <value>The {0} is already contained by another {1}.</value>
+  </data>
+  <data name="ADP_InternalError" xml:space="preserve">
+    <value>Internal error not handled ({0}).</value>
+  </data>
+  <data name="ADP_InvalidSizeValue" xml:space="preserve">
+    <value>Invalid parameter Size value '{0}'. The value must be greater than or equal to 0.</value>
+  </data>
+  <data name="ADP_SyntaxErrorExpectedCommaAfterColumn" xml:space="preserve">
+    <value>Syntax Error: Expecting ',' or 'FROM' after column alias or '*'.</value>
+  </data>
+  <data name="ADP_InvalidSourceOffset" xml:space="preserve">
+    <value>Value must be between {0} and {1}.</value>
+  </data>
+  <data name="ADP_ChangeDatabaseNotSupported" xml:space="preserve">
+    <value>Oracle does not support changing databases.</value>
+  </data>
+  <data name="MDF_TooManyRestrictions" xml:space="preserve">
+    <value>More restrictions were provided than the requested schema ('{0}') supports.</value>
+  </data>
+  <data name="ADP_TransactionConnectionMismatch" xml:space="preserve">
+    <value>The Transaction object is not associated with the Connection object.</value>
+  </data>
+  <data name="ADP_CollectionIndexInt32" xml:space="preserve">
+    <value>Invalid index {0} for this {1} with Count={2}.</value>
+  </data>
+  <data name="ADP_NoOptimizedDirectTableAccess" xml:space="preserve">
+    <value>This provider does not support direct table access.</value>
+  </data>
+  <data name="ADP_InvalidMinMaxPoolSizeValues" xml:space="preserve">
+    <value>Invalid min or max pool size values, min pool size cannot be greater than the max pool size.</value>
+  </data>
+  <data name="DbParameter_SourceVersion" xml:space="preserve">
+    <value>When used by a DataAdapter.Update (UpdateCommand only), the version of the DataRow value that is used to update the data source.</value>
+  </data>
+  <data name="ADP_UnknownDataTypeCode" xml:space="preserve">
+    <value>Unknown datatype {0} for parameter value of type {1}.</value>
+  </data>
+  <data name="MDF_InvalidXmlMissingColumn" xml:space="preserve">
+    <value>The metadata XML is invalid. The {0} collection must contain a {1} column and it must be a string column.</value>
+  </data>
+  <data name="DbParameter_Value" xml:space="preserve">
+    <value>Value of the parameter.</value>
+  </data>
+  <data name="ADP_ConnectionStateMsg" xml:space="preserve">
+    <value>The connection's current state: {0}.</value>
+  </data>
+  <data name="DbDataAdapter_SelectCommand" xml:space="preserve">
+    <value>Used during Fill or FillSchema.</value>
+  </data>
+  <data name="MDF_AmbigousCollectionName" xml:space="preserve">
+    <value>The collection name '{0}' matches at least two collections with the same name but with different case, but does not match any of them exactly.</value>
+  </data>
+  <data name="DbConnectionString_DataSource" xml:space="preserve">
+    <value>Indicates the name of the database to connect to.</value>
+  </data>
+  <data name="MDF_MissingDataSourceInformationColumn" xml:space="preserve">
+    <value>One of the required DataSourceInformation tables columns is missing.</value>
+  </data>
+  <data name="MDF_UndefinedPopulationMechanism" xml:space="preserve">
+    <value>The population mechanism '{0}' is not defined.</value>
+  </data>
+  <data name="DbDataAdapter_UpdateCommand" xml:space="preserve">
+    <value>Used during Update for modified rows in DataSet.</value>
+  </data>
+  <data name="ADP_InvalidSourceBufferIndex" xml:space="preserve">
+    <value>Invalid source buffer (size of {0}) offset: {1}.</value>
+  </data>
+  <data name="DbConnectionString_UserID" xml:space="preserve">
+    <value>Indicates the user ID to be used when connecting to the data source.</value>
+  </data>
+  <data name="ADP_ClosedDataReaderError" xml:space="preserve">
+    <value>Invalid operation. The OracleDataReader is closed.</value>
+  </data>
+  <data name="ADP_TransactionPresent" xml:space="preserve">
+    <value>Cannot enlist in the distributed transaction because an existing transaction is in progress on the connection.  Finish existing transaction and retry.</value>
+  </data>
+  <data name="DbParameter_SourceColumn" xml:space="preserve">
+    <value>When used by a DataAdapter.Update, the source column name that is used to find the DataSetColumn name in the ColumnMappings. This is to copy a value between the parameter and a data row.</value>
+  </data>
+  <data name="DbParameter_SourceColumnNullMapping" xml:space="preserve">
+    <value>When used by DataAdapter.Update, the parameter value is changed from DBNull.Value into (Int32)1 or (Int32)0 if non-null.</value>
+  </data>
+  <data name="ADP_ConnectionStateMsg_OpenFetching" xml:space="preserve">
+    <value>The connection's current state is fetching.</value>
+  </data>
+  <data name="ADP_ReadOnlyLob" xml:space="preserve">
+    <value>Lob is read-only.</value>
+  </data>
+  <data name="ADP_PooledOpenTimeout" xml:space="preserve">
+    <value>Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.</value>
+  </data>
+  <data name="ADP_InvalidOffsetValue" xml:space="preserve">
+    <value>Invalid parameter Offset value '{0}'. The value must be greater than or equal to 0.</value>
+  </data>
+  <data name="ADP_InvalidDataLength" xml:space="preserve">
+    <value>Data length '{0}' is less than 0.</value>
+  </data>
+  <data name="DataCategory_Pooling" xml:space="preserve">
+    <value>Pooling</value>
+  </data>
+  <data name="ADP_TypeNotSupported" xml:space="preserve">
+    <value>Unsupported Oracle data type {0} encountered.</value>
+  </data>
+  <data name="DataCategory_StateChange" xml:space="preserve">
+    <value>StateChange</value>
+  </data>
+  <data name="ADP_NoConnectionString" xml:space="preserve">
+    <value>The ConnectionString property has not been initialized.</value>
+  </data>
+  <data name="OracleCategory_Behavior" xml:space="preserve">
+    <value>Behavior</value>
+  </data>
+  <data name="ADP_NoMessageAvailable" xml:space="preserve">
+    <value>Unable to get error message ({0}) ({1}).</value>
+  </data>
+  <data name="ADP_OperationResultedInOverflow" xml:space="preserve">
+    <value>Operation resulted in an overflow condition.</value>
+  </data>
+  <data name="ADP_PleaseUninstallTheBeta" xml:space="preserve">
+    <value>It appears that the Beta version of MTxOCI8.DLL is installed.  Please see KB article Q322343.</value>
+  </data>
+  <data name="DbConnection_StateChange" xml:space="preserve">
+    <value>Event triggered when the connection changes state.</value>
+  </data>
+  <data name="ADP_SyntaxErrorExpectedCommaAfterTable" xml:space="preserve">
+    <value>Syntax Error: Expecting ',' or 'WHERE' (etc.) after table alias.</value>
+  </data>
+  <data name="MDF_IncorrectNumberOfDataSourceInformationRows" xml:space="preserve">
+    <value>The DataSourceInformation table must contain exactly one row.</value>
+  </data>
+  <data name="ADP_CouldNotCreateEnvironment" xml:space="preserve">
+    <value>Could not create an environment: {0} returned {1:d}.</value>
+  </data>
+  <data name="ADP_NoLocalTransactionInDistributedContext" xml:space="preserve">
+    <value>You may not begin a local transaction while in a distributed transaction.</value>
+  </data>
+  <data name="OracleConnection_State" xml:space="preserve">
+    <value>The ConnectionState indicating whether the connection is open or closed.</value>
+  </data>
+  <data name="ADP_ConnectionStateMsg_Closed" xml:space="preserve">
+    <value>The connection's current state is closed.</value>
+  </data>
+  <data name="DbConnectionString_Enlist" xml:space="preserve">
+    <value>Sessions in a Component Services (or MTS, if you are using Microsoft Windows NT) environment should automatically be enlisted in a global transaction where required.</value>
+  </data>
+  <data name="ADP_InvalidDestinationBufferIndex" xml:space="preserve">
+    <value>Invalid destination buffer (size of {0}) offset: {1}</value>
+  </data>
+  <data name="ADP_InternalConnectionError" xml:space="preserve">
+    <value>Internal DbConnection Error: {0}</value>
+  </data>
+  <data name="OracleCategory_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="OracleCategory_Fill" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="ADP_ConvertFailed" xml:space="preserve">
+    <value>Cannot convert object of type '{0}' to object of type '{1}'.</value>
+  </data>
+  <data name="ADP_InvalidSeekOrigin" xml:space="preserve">
+    <value>SeekOrigin is not valid {0}.</value>
+  </data>
+  <data name="ADP_CollectionInvalidType" xml:space="preserve">
+    <value>The {0} only accepts non-null {1} type objects, not {2} objects.</value>
+  </data>
+  <data name="ADP_ParameterSizeIsMissing" xml:space="preserve">
+    <value>Parameter '{0}': No size set for variable length data type: {1}.</value>
+  </data>
+  <data name="DataCategory_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DbDataAdapter_InsertCommand" xml:space="preserve">
+    <value>Used during Update for new rows in DataSet.</value>
+  </data>
+  <data name="DbConnectionString_Pooling" xml:space="preserve">
+    <value>When true, the connection object is drawn from the appropriate pool, or if necessary, is created and added to the appropriate pool.</value>
+  </data>
+  <data name="MDF_InvalidXmlInvalidValue" xml:space="preserve">
+    <value>The metadata XML is invalid. The {1} column of the {0} collection must contain a non-empty string.</value>
+  </data>
+  <data name="ADP_ConnectionStateMsg_OpenExecuting" xml:space="preserve">
+    <value>The connection's current state is executing.</value>
+  </data>
+  <data name="ADP_DistribTxRequiresOracleServicesForMTS" xml:space="preserve">
+    <value>Distributed Transactions require Oracle9i client and Oracle Services for Microsoft Transaction Server software.</value>
+  </data>
+  <data name="DbParameter_Size" xml:space="preserve">
+    <value>Size of variable length data types (string &amp; arrays).</value>
+  </data>
+  <data name="DbTable_UpdateCommand" xml:space="preserve">
+    <value>Used during Update for modified rows in the DataTable.</value>
+  </data>
+  <data name="ADP_SyntaxErrorExpectedNextPart" xml:space="preserve">
+    <value>Syntax Error: Expecting '.', identifier or quoted identifier.</value>
+  </data>
+  <data name="DbConnectionString_IntegratedSecurity" xml:space="preserve">
+    <value>Whether the connection is to be a secure connection or not.</value>
+  </data>
+  <data name="DataCategory_Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="DbDataAdapter_RowUpdating" xml:space="preserve">
+    <value>Event triggered after every DataRow during Update.</value>
+  </data>
+  <data name="MDF_NoColumns" xml:space="preserve">
+    <value>The schema table contains no columns.</value>
+  </data>
+  <data name="ADP_InvalidDbType" xml:space="preserve">
+    <value>Value is not valid for DbType: {0}.</value>
+  </data>
+  <data name="ADP_InvalidDataDirectory" xml:space="preserve">
+    <value>The DataDirectory substitute is not a string.</value>
+  </data>
+  <data name="MDF_UnableToBuildCollection" xml:space="preserve">
+    <value>Unable to build schema collection '{0}';</value>
+  </data>
+  <data name="ADP_SyntaxErrorExpectedIdentifier" xml:space="preserve">
+    <value>Syntax Error: Expecting identifier or quoted identifier.</value>
+  </data>
+  <data name="ADP_BufferExceeded" xml:space="preserve">
+    <value>The offset and count values specified exceed the buffer provided.</value>
+  </data>
+  <data name="ADP_NoData" xml:space="preserve">
+    <value>Invalid attempt to read when no data is present.</value>
+  </data>
+  <data name="DbParameter_IsNullable" xml:space="preserve">
+    <value>a design-time property used for strongly typed code-generation.</value>
+  </data>
+  <data name="OracleCategory_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="DbDataAdapter_RowUpdated" xml:space="preserve">
+    <value>Event triggered before every DataRow during Update.</value>
+  </data>
+  <data name="DbConnectionString_ConnectionString" xml:space="preserve">
+    <value>The connection string used to connect to the Data Source.</value>
+  </data>
+  <data name="ADP_CollectionIsParent" xml:space="preserve">
+    <value>The {0} with is already contained by this {1}.</value>
+  </data>
+  <data name="ADP_ParameterConversionFailed" xml:space="preserve">
+    <value>Failed to convert parameter value from a {0} to a {1}.</value>
+  </data>
+  <data name="DbConnectionString_PersistSecurityInfo" xml:space="preserve">
+    <value>When false, security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state.</value>
+  </data>
+  <data name="ADP_OperationFailed" xml:space="preserve">
+    <value>{0} failed with return code {1} but error message text was not available.</value>
+  </data>
+  <data name="OracleParameter_OracleType" xml:space="preserve">
+    <value>The parameter native type.</value>
+  </data>
+  <data name="MDF_UndefinedCollection" xml:space="preserve">
+    <value>The requested collection ({0}) is not defined.</value>
+  </data>
+  <data name="DbCommand_Transaction" xml:space="preserve">
+    <value>The transaction used by the command.</value>
+  </data>
+  <data name="ADP_EmptyString" xml:space="preserve">
+    <value>Expecting non-empty string for '{0}' parameter.</value>
+  </data>
+  <data name="DataCategory_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ADP_TransactionRequired_Execute" xml:space="preserve">
+    <value>Execute requires the Command object to have a Transaction object when the Connection object assigned to the Command is in a pending local transaction.  The Transaction property of the Command has not been initialized.</value>
+  </data>
+  <data name="DbConnectionString_MaxPoolSize" xml:space="preserve">
+    <value>The maximum number of connections allowed in the pool.</value>
+  </data>
+  <data name="ADP_CollectionRemoveInvalidObject" xml:space="preserve">
+    <value>Attempted to remove an {0} that is not contained by this {1}.</value>
+  </data>
+  <data name="DbCommand_Parameters" xml:space="preserve">
+    <value>The parameters collection.</value>
+  </data>
+  <data name="DbConnectionString_Unicode" xml:space="preserve">
+    <value>If true, the client supports Unicode functionality available in Oracle, or if false, is non-Unicode aware.</value>
+  </data>
+  <data name="MDF_CollectionNameISNotUnique" xml:space="preserve">
+    <value>There are multiple collections named '{0}'.</value>
+  </data>
+  <data name="DataCategory_Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="ADP_ConnectionRequired" xml:space="preserve">
+    <value>{0}: The Connection property has not been initialized.</value>
+  </data>
+  <data name="ADP_ConnectionStateMsg_Open" xml:space="preserve">
+    <value>The connection's current state is open.</value>
+  </data>
+  <data name="ADP_InvalidConnectionOptionLength" xml:space="preserve">
+    <value>Invalid length for connection option '{0}', maximum length is {1}.</value>
+  </data>
+  <data name="DbConnection_State" xml:space="preserve">
+    <value>The ConnectionState indicating whether the connection is open or closed.</value>
+  </data>
+  <data name="OracleConnection_ConnectionString" xml:space="preserve">
+    <value>Information used to connect to an Oracle server.</value>
+  </data>
+  <data name="ADP_ConfigUnableToLoadXmlMetaDataFile" xml:space="preserve">
+    <value>"Unable to load the XML file specified in configuration setting '{0}'.</value>
+  </data>
+  <data name="ADP_ClosedConnectionError" xml:space="preserve">
+    <value>Invalid operation. The connection is closed.</value>
+  </data>
+  <data name="OracleConnection_ServerVersion" xml:space="preserve">
+    <value>Version of the Oracle server.</value>
+  </data>
+  <data name="DbCommand_CommandText" xml:space="preserve">
+    <value>Command text to execute.</value>
+  </data>
+  <data name="DbCommand_CommandType" xml:space="preserve">
+    <value>How to interpret the CommandText.</value>
+  </data>
+  <data name="DbConnectionString_MinPoolSize" xml:space="preserve">
+    <value>The minimum number of connections allowed in the pool.</value>
+  </data>
+  <data name="OracleCommandBuilder_QuotePrefix" xml:space="preserve">
+    <value>The prefix string wrapped around Oracle identifier names to enforce case sensitivity</value>
+  </data>
+  <data name="DbParameter_ParameterName" xml:space="preserve">
+    <value>Name of the parameter.</value>
+  </data>
+  <data name="ADP_InternalProviderError" xml:space="preserve">
+    <value>Internal .Net Framework Data Provider error {0}.</value>
+  </data>
+  <data name="ADP_InvalidLobType" xml:space="preserve">
+    <value>Cannot create temporary lob of type: {0}.</value>
+  </data>
+  <data name="ADP_SyntaxErrorTooManyNameParts" xml:space="preserve">
+    <value>Syntax Error: too many name parts.</value>
+  </data>
+  <data name="OracleCommandBuilder_QuoteSuffix" xml:space="preserve">
+    <value>The suffix string wrapped around Oracle identifier names to enforce case sensitivity</value>
+  </data>
+  <data name="ADP_MonthOutOfRange" xml:space="preserve">
+    <value>Resulting number of months value is out of range.</value>
+  </data>
+  <data name="ADP_ConnectionStateMsg_Connecting" xml:space="preserve">
+    <value>The connection's current state is connecting.</value>
+  </data>
+  <data name="ADP_NoCommandText" xml:space="preserve">
+    <value>CommandText property has not been initialized.</value>
+  </data>
+  <data name="ADP_InvalidValue" xml:space="preserve">
+    <value>The value contains embedded nulls (\u0000).</value>
+  </data>
+  <data name="ADP_LobWriteRequiresTransaction" xml:space="preserve">
+    <value>Modifying a LOB requires that the connection be transacted.</value>
+  </data>
+  <data name="ADP_CommandTextRequired" xml:space="preserve">
+    <value>{0}: The CommandText property has not been initialized.</value>
+  </data>
+  <data name="ADP_NotAPermissionElement" xml:space="preserve">
+    <value>Given security element is not a permission element.</value>
+  </data>
+  <data name="DbTable_SelectCommand" xml:space="preserve">
+    <value>Used during Fill.</value>
+  </data>
+  <data name="DbTable_InsertCommand" xml:space="preserve">
+    <value>Used during Update for new rows in the DataTable.</value>
+  </data>
+  <data name="ADP_CannotDeriveOverloaded" xml:space="preserve">
+    <value>Cannot derive parameters for overloaded stored procedure or function.</value>
+  </data>
+  <data name="DbCommand_UpdatedRowSource" xml:space="preserve">
+    <value>When used by a DataAdapter.Update, how command results are applied to the current DataRow.</value>
+  </data>
+  <data name="ADP_InvalidOracleType" xml:space="preserve">
+    <value>Value is not valid for OracleType: {0}.</value>
+  </data>
+  <data name="ADP_InvalidCommandType" xml:space="preserve">
+    <value>The CommandType enumeration value, {0}, is invalid.</value>
+  </data>
+  <data name="ADP_InvalidXMLBadVersion" xml:space="preserve">
+    <value>Invalid Xml; can only parse elements of version one.</value>
+  </data>
+  <data name="ADP_LobAmountMustBeEven" xml:space="preserve">
+    <value>CLOB and NCLOB require even number of bytes for this argument.</value>
+  </data>
+  <data name="ADP_CollectionIndexString" xml:space="preserve">
+    <value>An {0} with {1} '{2}' is not contained by this {3}.</value>
+  </data>
+  <data name="MDF_UnsupportedVersion" xml:space="preserve">
+    <value>The requested collection ({0}) is not supported by this version of the provider.</value>
+  </data>
+  <data name="ADP_InvalidConnectionOptionValue" xml:space="preserve">
+    <value>Invalid value for key '{0}'.</value>
+  </data>
+  <data name="DbCommand_Connection" xml:space="preserve">
+    <value>Connection used by the command.</value>
+  </data>
+  <data name="DbTable_Connection" xml:space="preserve">
+    <value>Connection used if the the Select/Insert/Update/DeleteCommands do not already have a connection.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired" xml:space="preserve">
+    <value>{0} requires an open and available connection. The current state of the connection is {1}.{2}.</value>
+  </data>
+  <data name="ADP_InvalidDataType" xml:space="preserve">
+    <value>The parameter data type of {0} is invalid.</value>
+  </data>
+  <data name="SqlMisc_NullString" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="ADP_PermissionTypeMismatch" xml:space="preserve">
+    <value>Type mismatch.</value>
+  </data>
+  <data name="ADP_LobWriteInvalidOnNull" xml:space="preserve">
+    <value>Null LOBs may not be modified.</value>
+  </data>
+  <data name="ADP_WrongType" xml:space="preserve">
+    <value>Expecting argument of type {1}, but received type {0}.</value>
+  </data>
+  <data name="ADP_WriteByteForBinaryLobsOnly" xml:space="preserve">
+    <value>WriteByte is not supported for CLOB or NCLOB.</value>
+  </data>
+  <data name="ADP_SeekBeyondEnd" xml:space="preserve">
+    <value>Cannot seek to before beginning or after end of the LOB.</value>
+  </data>
+  <data name="MDF_QueryFailed" xml:space="preserve">
+    <value>Unable to build the '{0}' collection because execution of the SQL query failed. See the inner exception for details.</value>
+  </data>
+  <data name="MDF_InvalidRestrictionValue" xml:space="preserve">
+    <value>'{2}' is not a valid value for the '{1}' restriction of the '{0}' schema collection.</value>
+  </data>
+  <data name="ADP_LobAmountExceeded" xml:space="preserve">
+    <value>Must be &gt;= 0 and &lt; 4GB.</value>
+  </data>
+  <data name="ADP_DistribTxRequiresOracle9i" xml:space="preserve">
+    <value>Distributed Transactions require Oracle9i client software.</value>
+  </data>
+  <data name="ADP_ConfigWrongNumberOfValues" xml:space="preserve">
+    <value>The '{0}' configuration setting has the wrong number of values.</value>
+  </data>
+  <data name="OracleConnection_StateChange" xml:space="preserve">
+    <value>Event triggered when the connection changes state.</value>
+  </data>
+  <data name="DataCategory_Initialization" xml:space="preserve">
+    <value>Initialization</value>
+  </data>
+  <data name="ADP_OpenConnectionPropertySet" xml:space="preserve">
+    <value>Not allowed to change the '{0}' property. {1}</value>
+  </data>
+  <data name="ADP_DataReaderNoData" xml:space="preserve">
+    <value>No data exists for the row or column.</value>
+  </data>
+  <data name="ADP_BadOracleClientImageFormat" xml:space="preserve">
+    <value>Attempt to load Oracle client libraries threw BadImageFormatException.  This problem will occur when running in 64 bit mode with the 32 bit Oracle client components installed.</value>
+  </data>
+  <data name="DbTable_DeleteCommand" xml:space="preserve">
+    <value>Used during Update for deleted rows in the DataTable.</value>
+  </data>
+  <data name="ADP_InvalidEnumerationValue" xml:space="preserve">
+    <value>The {0} enumeration value, {1}, is invalid.</value>
+  </data>
+  <data name="ADP_MustBePositive" xml:space="preserve">
+    <value>Must be a positive value.</value>
+  </data>
+  <data name="MDF_MissingRestrictionColumn" xml:space="preserve">
+    <value>One or more of the required columns of the restrictions collection is missing.</value>
+  </data>
+  <data name="DbParameter_DbType" xml:space="preserve">
+    <value>The parameter generic type.</value>
+  </data>
+  <data name="OracleConnection_InfoMessage" xml:space="preserve">
+    <value>Event triggered when messages arrive from the data source.</value>
+  </data>
+  <data name="ADP_BadBindValueType" xml:space="preserve">
+    <value>Cannot bind type {0} as {1}.</value>
+  </data>
+  <data name="MDF_InvalidXml" xml:space="preserve">
+    <value>The metadata XML is invalid.</value>
+  </data>
+  <data name="DbConnectionString_OmitOracleConnectionName" xml:space="preserve">
+    <value>When true, omits calls to set the connection name attribute through Oracle's OCI.  When false (default), the connection name attribute will be set, which is required to enlist in a distributed transaction.  This connection string option should be set to true when using Oracle databases that pre-date 9i as older versions do not support the use of the OCI connection name attribute.</value>
+  </data>
+  <data name="DbConnectionString_LoadBalanceTimeout" xml:space="preserve">
+    <value>The minimum amount of time (in seconds) for this connection to live in the pool before being destroyed.</value>
+  </data>
+  <data name="ADP_InputRefCursorNotSupported" xml:space="preserve">
+    <value>parameter '{0}': OracleType.Cursor parameters may only be ParameterDirection.Output parameters.</value>
+  </data>
+  <data name="OracleCategory_StateChange" xml:space="preserve">
+    <value>StateChange</value>
+  </data>
+  <data name="ADP_SyntaxErrorMissingParenthesis" xml:space="preserve">
+    <value>Syntax Error: right parenthesis without opening left parenthesis.</value>
+  </data>
+  <data name="ADP_KeywordNotSupported" xml:space="preserve">
+    <value>Keyword not supported: '{0}'.</value>
+  </data>
+  <data name="ADP_IdentifierIsNotQuoted" xml:space="preserve">
+    <value>Identifier is not quoted.</value>
+  </data>
+  <data name="DbConnectionString_Password" xml:space="preserve">
+    <value>Indicates the password to be used when connecting to the data source.</value>
+  </data>
+  <data name="ADP_CollectionNullValue" xml:space="preserve">
+    <value>The {0} only accepts non-null {1} type objects.</value>
+  </data>
+  <data name="ADP_DataReaderClosed" xml:space="preserve">
+    <value>Invalid attempt to {0} when reader is closed.</value>
+  </data>
+  <data name="OracleMetaDataFactory_XML" xml:space="preserve">
+    <value>xml goes here</value>
+  </data>
+</root>

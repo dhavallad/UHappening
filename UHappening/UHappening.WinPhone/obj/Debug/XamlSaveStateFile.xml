@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\raaka\documents\visual studio 2015\projects\uhappening\uhappening\uhappening.winphone\obj\debug\intermediatexaml\uhappening.winphone.exe" HashGuid="d0a37286-2e0a-9901-8d26-7efc32002865" />
-    <ReferenceAssembly PathName="c:\users\raaka\documents\visual studio 2015\projects\uhappening\uhappening\uhappening\bin\debug\uhappening.dll" HashGuid="d633fb5b-197f-0682-547a-a80176263e71" />
+    <ReferenceAssembly PathName="c:\users\raaka\documents\visual studio 2015\projects\uhappening\uhappening\uhappening\bin\debug\uhappening.dll" HashGuid="ebb04912-3fc4-7228-a453-023c9d89c5d2" />
     <ReferenceAssembly PathName="c:\users\raaka\documents\visual studio 2015\projects\uhappening\packages\xamarin.forms.2.3.2.127\lib\wpa81\xamarin.forms.core.dll" HashGuid="725dee27-7376-6787-2b92-d2b102c486d4" />
     <ReferenceAssembly PathName="c:\users\raaka\documents\visual studio 2015\projects\uhappening\packages\xamarin.forms.2.3.2.127\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
     <ReferenceAssembly PathName="c:\users\raaka\documents\visual studio 2015\projects\uhappening\packages\xamarin.forms.2.3.2.127\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="07994aa2-3382-4066-7150-6b749ac659d6" />

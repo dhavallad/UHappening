@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Reg_NoApplicationSecurity" xml:space="preserve">
+    <value>WARNING: The assembly does not declare an ApplicationAccessControl Attribute.  Application security will be enabled by default.</value>
+  </data>
+  <data name="Err_IManagedObjectGetObjectIdentity" xml:space="preserve">
+    <value>IManagedObject.GetObjectIdentity</value>
+  </data>
+  <data name="ServicedComponentException_DeactivatedObject" xml:space="preserve">
+    <value>Invalid call on deactivated Object.</value>
+  </data>
+  <data name="Soap_ComPlusSoapServices" xml:space="preserve">
+    <value>COM+ SOAP Services</value>
+  </data>
+  <data name="Soap_ClientConfigAddFailure" xml:space="preserve">
+    <value>Creation of configuration file failed.</value>
+  </data>
+  <data name="Reg_MarshalerDesc" xml:space="preserve">
+    <value>Allow users to create and dispose the component (see IManagedObject, IServiceComponentInfo and IDisposable).</value>
+  </data>
+  <data name="Reg_CreateFlagErr" xml:space="preserve">
+    <value>Flags CreateTargetApplication and FindOrCreateTargetApplication are mutually exclusive.</value>
+  </data>
+  <data name="Soap_ConfigAdditionFailure" xml:space="preserve">
+    <value>Addition of component to configuration file failed.</value>
+  </data>
+  <data name="Err_UnknownHR" xml:space="preserve">
+    <value>Error from unknown HRESULT: {0:X}.</value>
+  </data>
+  <data name="InvalidOperation_EnumNotStarted" xml:space="preserve">
+    <value>Enumeration has not started. Call MoveNext.</value>
+  </data>
+  <data name="Pool_Timeout" xml:space="preserve">
+    <value>An object could not be retrieved from the pool within the specified timeout.</value>
+  </data>
+  <data name="ServicedComponentException_Default" xml:space="preserve">
+    <value>Unknown ServicedComponent exception.</value>
+  </data>
+  <data name="CRM_CompensatorDerive" xml:space="preserve">
+    <value>The CRM compensator must derive from System.EnterpriseServices.CRM.Compensator.</value>
+  </data>
+  <data name="Reg_ConfigErr" xml:space="preserve">
+    <value>Errors occurred while configuring components.</value>
+  </data>
+  <data name="Reg_IfcAmbiguousMatch" xml:space="preserve">
+    <value>Interface '{0}' matched types '{1}' and '{2}'.</value>
+  </data>
+  <data name="Err_value" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="CRM_CompensatorConstructor" xml:space="preserve">
+    <value>The CRM compensator must expose a public default constructor.</value>
+  </data>
+  <data name="Reg_FailPIT" xml:space="preserve">
+    <value>Failed to configure component '{0}' as a process initializer.</value>
+  </data>
+  <data name="Reg_ExpectExisting" xml:space="preserve">
+    <value>If the ExpectExistingTypeLib flag is specified, the typelib parameter must be supplied.</value>
+  </data>
+  <data name="Reg_TypeLibRegErr" xml:space="preserve">
+    <value>Failed to register type library '{0}'.</value>
+  </data>
+  <data name="Pool_UnknownPool" xml:space="preserve">
+    <value>The pool '{0}' was not found.</value>
+  </data>
+  <data name="Err_obSync" xml:space="preserve">
+    <value>obSync</value>
+  </data>
+  <data name="ServicedComponentException_SecurityNoPrivateAccess" xml:space="preserve">
+    <value>The ServicedComponent does not permit calls to private, internal, or static methods.</value>
+  </data>
+  <data name="RegSvcs_NotEnoughArgs" xml:space="preserve">
+    <value>Not enough arguments:
+</value>
+  </data>
+  <data name="Reg_ErrTxUninst" xml:space="preserve">
+    <value>Unable to create System.EnterpriseServices.RegistrationHelperTx (see exception below).   EnterpriseService was not correctly installed.  Please correct the problem and run 'regasm System.EnterpriseServices.dll' again to install System.EnterpriseServices.
+Exception:
+'{0}'</value>
+  </data>
+  <data name="Reg_PartitionsNotSupported" xml:space="preserve">
+    <value>This version of Windows does not support partitions.</value>
+  </data>
+  <data name="RegSvcs_InstallSuccess" xml:space="preserve">
+    <value>Installed Assembly:
+	Assembly: {0}
+	Application: {1}
+	TypeLib: {2}</value>
+  </data>
+  <data name="Err_SetThreadToken" xml:space="preserve">
+    <value>An error occurred while trying to set the current thread token.</value>
+  </data>
+  <data name="Reg_NoStrongName" xml:space="preserve">
+    <value>The assembly '{0}' does not have a strong name.</value>
+  </data>
+  <data name="Soap_WebConfigFailed" xml:space="preserve">
+    <value>Creation of the 'web.config' file failed.</value>
+  </data>
+  <data name="Reg_TypeLibInstallErr" xml:space="preserve">
+    <value>Could not install type library '{0}' into application '{1}'.</value>
+  </data>
+  <data name="Pool_TxAffinityPlatform" xml:space="preserve">
+    <value>ObjectPool with TransactionAffinity</value>
+  </data>
+  <data name="ServicedComponentException_AssemblyNotInGAC" xml:space="preserve">
+    <value>SOAP Publication failed because a required assembly is not in the GAC.</value>
+  </data>
+  <data name="CRM_CompensatorActivate" xml:space="preserve">
+    <value>Unable to create an instance of the specified compensator.</value>
+  </data>
+  <data name="Err_PlatformSupport" xml:space="preserve">
+    <value>'{0}' is not supported on the current platform.</value>
+  </data>
+  <data name="ServicedComponentException_Invoke" xml:space="preserve">
+    <value>An exception occurred in a call to a user component.</value>
+  </data>
+  <data name="ServicedComponentException_SecurityMapping" xml:space="preserve">
+    <value>Method-level role based security requires an interface definition for class method.</value>
+  </data>
+  <data name="InvalidOperation_EnumFailedVersion" xml:space="preserve">
+    <value>Collection was modified; enumeration operation might not execute.</value>
+  </data>
+  <data name="Reg_TypeLibGenErr" xml:space="preserve">
+    <value>Failed to generate type library '{0}' for '{1}'.</value>
+  </data>
+  <data name="Err_NoSecurityContext" xml:space="preserve">
+    <value>No security context is available.</value>
+  </data>
+  <data name="ServicedComponentException_Disposed" xml:space="preserve">
+    <value>The ServicedComponent being invoked has already been disposed.</value>
+  </data>
+  <data name="Reg_NoClassInterfaceSecure" xml:space="preserve">
+    <value>WARNING: '{1}' on class '{0}' is not an interface member. Method-level role based security requires an interface definition for class method.</value>
+  </data>
+  <data name="Reg_NoConfigTypesErr" xml:space="preserve">
+    <value>There are no configurable types in the assembly.</value>
+  </data>
+  <data name="Err_OpenThreadToken" xml:space="preserve">
+    <value>An error occurred while trying to open the current thread token.</value>
+  </data>
+  <data name="RegSvcs_UninstallSuccess" xml:space="preserve">
+    <value>Uninstallation of assembly '{0}' succeeded.</value>
+  </data>
+  <data name="Reg_FusionSigCheckFailed" xml:space="preserve">
+    <value>Strong name signature could not be verified.  Was the assembly built delay-signed?</value>
+  </data>
+  <data name="Reg_ErrTxInst" xml:space="preserve">
+    <value>Unable to create System.EnterpriseServices.RegistrationHelperTx (see exception below).   EnterpriseService was not correctly installed.  Please correct the problem and run 'regasm System.EnterpriseServices.dll' again to install System.EnterpriseServices.
+Exception:
+'{0}'</value>
+  </data>
+  <data name="Err_ClassNotReg" xml:space="preserve">
+    <value>The given class was not registered.</value>
+  </data>
+  <data name="CRM_HeaderRecord" xml:space="preserve">
+    <value>Record#</value>
+  </data>
+  <data name="Reg_BadAppRootDir" xml:space="preserve">
+    <value>The application root directory is invalid.</value>
+  </data>
+  <data name="Pool_NullObject" xml:space="preserve">
+    <value>User code returned a null object from CreateInstance.</value>
+  </data>
+  <data name="CRM_HeaderString" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Soap_PublishServerTlbFailure" xml:space="preserve">
+    <value>SOAP publication of server component failed.</value>
+  </data>
+  <data name="Soap_SmtpNotImplemented" xml:space="preserve">
+    <value>COM+ SOAP Services SMTP publication is not supported.</value>
+  </data>
+  <data name="Reg_FusionHashCheckFailed" xml:space="preserve">
+    <value>Module hash verification failed</value>
+  </data>
+  <data name="Soap_VRootDirectoryCreationFailed" xml:space="preserve">
+    <value>Creation of directories for an IIS VRoot failed.</value>
+  </data>
+  <data name="Soap_GetSystemDirectoryFailure" xml:space="preserve">
+    <value>Call to GetSystemDirectory failed.</value>
+  </data>
+  <data name="Reg_CannotDetermineWow64Ex" xml:space="preserve">
+    <value>An unexpected result was returned while trying to determine if this system supports Wow64. The unexpected result was '{0}'.</value>
+  </data>
+  <data name="Reg_Unauthorized" xml:space="preserve">
+    <value>You must have administrative credentials to perform this task. Contact your system administrator for assistance.</value>
+  </data>
+  <data name="Reg_AutoExportMsg" xml:space="preserve">
+    <value>Auto exporting '{0}' as '{1}'.</value>
+  </data>
+  <data name="Reg_ConfigUnkErr" xml:space="preserve">
+    <value>An unknown error occurred while configuring components.</value>
+  </data>
+  <data name="CRM_MissingClerk" xml:space="preserve">
+    <value>A method call was made on a Compensator with no Clerk.</value>
+  </data>
+  <data name="ServicedComponentException_BadMessage" xml:space="preserve">
+    <value>Bad message format.</value>
+  </data>
+  <data name="Reg_AssemblyUnregErr" xml:space="preserve">
+    <value>Failed to unregister assembly '{0}'.</value>
+  </data>
+  <data name="Reg_ErrUninstSysEnt" xml:space="preserve">
+    <value>System.EnterpriseServices failed to uninstall.
+Exception:
+'{0}'</value>
+  </data>
+  <data name="CRM_MonitorPopulate" xml:space="preserve">
+    <value>The CRM Monitor must be populated before use.</value>
+  </data>
+  <data name="RegSvcs_DeprecatedArg" xml:space="preserve">
+    <value>Please use /appname:&lt;name&gt; and /tlb:&lt;name&gt; to specify the application and type library names.</value>
+  </data>
+  <data name="RegSvcs_InstallError" xml:space="preserve">
+    <value>The following installation error occurred:</value>
+  </data>
+  <data name="Reg_ErrCollectionErr" xml:space="preserve">
+    <value>Unable to examine error collection.</value>
+  </data>
+  <data name="Soap_VRootDirectoryDeletionFailed" xml:space="preserve">
+    <value>Deletion of an IIS VRoot failed.</value>
+  </data>
+  <data name="RegSvcs_InstallSuccess2" xml:space="preserve">
+    <value>Installed Assembly:
+	Assembly: {0}
+	Application: {1}
+	Partition: {2}
+	TypeLib: {3}</value>
+  </data>
+  <data name="Reg_ArgumentAssembly" xml:space="preserve">
+    <value>The 'assembly' argument must be specified.</value>
+  </data>
+  <data name="Reg_TypeFindError" xml:space="preserve">
+    <value>Unable to find interface '{0}' on type '{1}'.</value>
+  </data>
+  <data name="Reg_NoClassInterface" xml:space="preserve">
+    <value>WARNING: '{1}' on class '{0}' is not an interface member. Unmanaged late bound calls cannot take advantage of AutoComplete methods.</value>
+  </data>
+  <data name="Reg_Already64bit" xml:space="preserve">
+    <value>One or more of the components being installed are already registered as 64 bit components in the target application. You must install the 32 bit versions of the components being installed in a different COM+ application, or delete the existing 64 bit versions of the components being installed from the target COM+ application prior to attempting install of the 32 bit versions. COM+ applications cannot contain bit neutral components. </value>
+  </data>
+  <data name="Reg_Already32bit" xml:space="preserve">
+    <value>One or more of the components being installed are already registered as 32 bit components in the target application. You must install the 64 bit versions of the components being installed in a different COM+ application, or delete the existing 32 bit versions of the components being installed from the target COM+ application prior to attempting install of the 64 bit versions. COM+ applications cannot contain bit neutral components.</value>
+  </data>
+  <data name="ServicedComponentException_Infrastructure" xml:space="preserve">
+    <value>An exception occurred in the ServicedComponent infrastructure.</value>
+  </data>
+  <data name="Reg_PartitionErr" xml:space="preserve">
+    <value>Unable to find partition '{0}'</value>
+  </data>
+  <data name="Reg_FusionUnknownError" xml:space="preserve">
+    <value>Unknown Fusion Error '{0}'</value>
+  </data>
+  <data name="Err_info" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="RegSvcs_CatalogError" xml:space="preserve">
+    <value>An unknown COM+ 1.0 catalog error occurred:</value>
+  </data>
+  <data name="RegSvcs_NoServicedComponents" xml:space="preserve">
+    <value>Warning: No ServicedComponent-derived classes were found in the assembly.
+
+(Use RegAsm to register ComVisible types.)</value>
+  </data>
+  <data name="Reg_ComponentComErr" xml:space="preserve">
+    <value>Errors occurred configuring '{0}'.  The object could have conflicting attributes.</value>
+  </data>
+  <data name="RegSvcs_ToManyArgs" xml:space="preserve">
+    <value>Too many arguments:
+</value>
+  </data>
+  <data name="Err_ActivationFailed" xml:space="preserve">
+    <value>An exception occurred during activation.
+{0}.</value>
+  </data>
+  <data name="Reg_CannotDetermineBitness" xml:space="preserve">
+    <value>Unable to determine the bitness used to load RegistrationHelperTx with. IsWow64Process returned '{0}'.</value>
+  </data>
+  <data name="Reg_InvalidServicedComponents" xml:space="preserve">
+    <value>Invalid ServicedComponent-derived classes were found in the assembly.
+(Classes must be public, concrete, have a public default constructor, and meet all other ComVisibility requirements)</value>
+  </data>
+  <data name="RegSvcs_AssemblyNotFound" xml:space="preserve">
+    <value>Assembly not found: '{0}'.</value>
+  </data>
+  <data name="Reg_ErrInstSysEnt" xml:space="preserve">
+    <value>System.EnterpriseServices failed to install. Please fix the problem (see exception below) and run 'regasm System.EnterpriseServices.dll' again to install System.EnterpriseServices.
+Exception:
+'{0}'</value>
+  </data>
+  <data name="RegSvcs_CopyrightMsg" xml:space="preserve">
+    <value>Microsoft (R) .NET Framework Services Installation Utility Version {0}
+{1}
+</value>
+  </data>
+  <data name="Reg_AssemblyRegErr" xml:space="preserve">
+    <value>Failed to register assembly '{0}'.</value>
+  </data>
+  <data name="Soap_InputFileNotValidTypeLib" xml:space="preserve">
+    <value>The input file is not a valid type library.</value>
+  </data>
+  <data name="Reg_QueueingNotSupported" xml:space="preserve">
+    <value>Queuing not supported on interface '{0}'.</value>
+  </data>
+  <data name="Err_IManagedObjectGetSerializedBuffer" xml:space="preserve">
+    <value>IManagedObject.GetSerializedBuffer</value>
+  </data>
+  <data name="ServicedComponentException_DependencyNotInGAC" xml:space="preserve">
+    <value>SOAP Publication failed because a required assembly dependency is not in the GAC.</value>
+  </data>
+  <data name="Reg_InstallTitle" xml:space="preserve">
+    <value>.NET Services Installer</value>
+  </data>
+  <data name="Reg_ComponentAttrErr" xml:space="preserve">
+    <value>Error occurred while configuring component '{0}' with attribute '{1}'.</value>
+  </data>
+  <data name="Reg_ComponentUnkErr" xml:space="preserve">
+    <value>Errors occurred configuring '{0}'.</value>
+  </data>
+  <data name="RegSvcs_InvalidOption" xml:space="preserve">
+    <value>Invalid option: '{0}'
+</value>
+  </data>
+  <data name="ServicedComponentException_ConstructorArguments" xml:space="preserve">
+    <value>Classes derived from ServicedComponent do not support constructors with arguments.</value>
+  </data>
+  <data name="Reg_ComponentMissing" xml:space="preserve">
+    <value>FATAL: Could not find component '{0}' we just installed.</value>
+  </data>
+  <data name="Soap_ConfigDeletionFailure" xml:space="preserve">
+    <value>Deletion of component from configuration file failed.</value>
+  </data>
+  <data name="Reg_AppExistsErr" xml:space="preserve">
+    <value>Application '{0}' already exists.</value>
+  </data>
+  <data name="Soap_GacRemoveFailed" xml:space="preserve">
+    <value>Removal of an assembly from the global assembly cache failed: </value>
+  </data>
+  <data name="Reg_SaveErr" xml:space="preserve">
+    <value>Unable to save changes to a catalog collection.</value>
+  </data>
+  <data name="Reg_FusionInstallDisallowed" xml:space="preserve">
+    <value>Attempt to install an assembly without a strong name</value>
+  </data>
+  <data name="RegSvcs_NoBootstrap" xml:space="preserve">
+    <value>System.EnterpriseServices.dll should not be registered with RegSvcs.</value>
+  </data>
+  <data name="Err_NoContext" xml:space="preserve">
+    <value>There is no MTS context available.</value>
+  </data>
+  <data name="Reg_FailInstall" xml:space="preserve">
+    <value>Installation of '{0}' into '{1}' failed with an exception:</value>
+  </data>
+  <data name="Soap_SecurityFailure" xml:space="preserve">
+    <value>Insufficient privilege to perform this operation.</value>
+  </data>
+  <data name="Reg_RegistryErr" xml:space="preserve">
+    <value>An unknown error occurred while reading the registry.</value>
+  </data>
+  <data name="Soap_DeleteServerTlbFailure" xml:space="preserve">
+    <value>SOAP deletion of server component failed.</value>
+  </data>
+  <data name="RegSvcs_Usage" xml:space="preserve">
+    <value>USAGE: regsvcs.exe [options] AssemblyName
+Options:
+    /? or /help     Display this usage message.
+    /fc             Find or create target application (default).
+    /c              Create target application, error if it already exists.
+    /exapp          Expect an existing application.
+    /tlb:&lt;tlbfile&gt;  Filename for the exported type library.
+    /appname:&lt;name&gt; Use the specified name for the target application.
+    /parname:&lt;name&gt; Use the specified name or id for the target partition.
+    /extlb          Use an existing type library.
+    /reconfig       Reconfigure existing target application (default).
+    /noreconfig     Don't reconfigure existing target application.
+    /u              Uninstall target application.
+    /nologo         Suppress logo output.
+    /quiet          Suppress logo output and success output.
+    /componly       Configure components only, no methods or interfaces.
+    /appdir:&lt;path&gt;  Set application root directory to specified path.
+</value>
+  </data>
+  <data name="ServicedComponentException_WSCNotSupported" xml:space="preserve">
+    <value>SOAP Publication of script components is not supported.</value>
+  </data>
+  <data name="Reg_AppNotFoundErr" xml:space="preserve">
+    <value>Could not find application '{0}'.</value>
+  </data>
+  <data name="ServicedComponentException_BadConfiguration" xml:space="preserve">
+    <value>The ServicedComponent being invoked is not correctly configured (Use regsvcs to re-register).</value>
+  </data>
+  <data name="Reg_FusionNoStrongName" xml:space="preserve">
+    <value>The assembly does not have a strong name</value>
+  </data>
+  <data name="Reg_AssemblyLoadErr" xml:space="preserve">
+    <value>Failed to load assembly '{0}'.</value>
+  </data>
+  <data name="ServicedComponentException_UnexpectedType" xml:space="preserve">
+    <value>CoCreateInstance returned an unexpected type: expected {0}, received {1}.</value>
+  </data>
+  <data name="Reg_CannotDetermineWow64" xml:space="preserve">
+    <value>An unexpected error occurred trying to determine if this system supports Wow64. The unexpected error code is '{0}'.</value>
+  </data>
+  <data name="ServicedComponentException_ActivationFailed" xml:space="preserve">
+    <value>COM+ Activation failed because an initialization function failed.  Check the event log for more information.</value>
+  </data>
+  <data name="Err_NonClsException" xml:space="preserve">
+    <value>A non-CLS compliant exception was thrown from {0}.</value>
+  </data>
+  <data name="Soap_GacInstallFailed" xml:space="preserve">
+    <value>Installation in the global assembly cache failed: </value>
+  </data>
+  <data name="Reg_CatalogErr" xml:space="preserve">
+    <value>Unable to open COM+ 1.0 catalog to configure components.</value>
+  </data>
+  <data name="InvalidOperation_EnumEnded" xml:space="preserve">
+    <value>Enumeration already finished.</value>
+  </data>
+  <data name="RegSvcs_UnknownError" xml:space="preserve">
+    <value>An unknown exception occurred during installation:</value>
+  </data>
+  <data name="Soap_ResolutionForTypeLibFailed" xml:space="preserve">
+    <value>Dependency resolution for a type library failed:</value>
+  </data>
+  <data name="CRM_HeaderFlags" xml:space="preserve">
+    <value>Flags</value>
+  </data>
+  <data name="RegSvcs_UninstallError" xml:space="preserve">
+    <value>The following un-installation error occurred:</value>
+  </data>
+  <data name="Soap_VRootCreationFailed" xml:space="preserve">
+    <value>Creation of an IIS Virtual Root failed.</value>
+  </data>
+  <data name="InvalidOperation_EnumOpCantHappen" xml:space="preserve">
+    <value>Enumeration has either not started or has already finished.</value>
+  </data>
+  <data name="Reg_MethOverloadUnsupported" xml:space="preserve">
+    <value>Overloaded methods such as '{0}' are not supported.  Try the /componly flag to regsvcs.</value>
+  </data>
+</root>

@@ -28,14 +28,18 @@ namespace UHappening
             {
                 //await Navigation.PushAsync(new Temp());
                 //on successfull login 
-                App.Current.MainPage = new Welcome();
+                App.Current.MainPage = new NavigationPage(new HomPage());
             }
 
         }
-        private void register_clicked(object sender, EventArgs e)
+        private async void register_clicked(object sender, EventArgs e)
         {
-            //await Navigation.PushAsync(new UserRegister());
-            App.Current.MainPage = new UserRegister();
+            await Navigation.PushAsync(new UserRegister());
+            //App.Current.MainPage = new UserRegister();
+        }
+        private async void temp_clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Temp());
         }
     }
 }

@@ -13,7 +13,9 @@ namespace UHappening
             InitializeComponent();
 
            // MainPage = new MainPage();
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+            //HomPage = new NavigationPage(new HomPage());
+            //HomPage = new HomPage();
             //MainPage = new TabbedPage  // can also use "CarouselPage" 
             //{
             //    Children =

@@ -1,17 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UHappening.ListView">
-  <ListView x:Name="MainList" HasUnevenRows="True">
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell>
-          <StackLayout Orientation="Vertical" Padding="20" Margin="20" >
-            <Label Text="{Binding name}"></Label>
-            <Label Text="{Binding type}"></Label>
-          </StackLayout>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>
+             xmlns:local="clr-namespace:UHappening"
+             x:Class="UHappening.ListView"
+             Title="Events">
+    <StackLayout>
+        <SearchBar x:Name="SearchEvents" SearchButtonPressed="SearchEvents_SearchButtonPressed"></SearchBar>
+        <ListView x:Name="MainList" HasUnevenRows="True" ItemSelected="MainList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout   Orientation="Vertical" Padding="20" Margin="20" >
+                            <!--x:Name="{Binding xyz}"-->
+                            <Label Text="{Binding name}"></Label>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="{Binding type}"></Label>
+                                <!--<Button Text="More" HorizontalOptions="End"></Button>-->
+                            </StackLayout>
+                            <!--<StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>-->
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

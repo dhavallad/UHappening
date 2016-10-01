@@ -10,8 +10,11 @@
     <Entry x:Name="Password" WidthRequest="300" IsPassword="True" Placeholder="Password" ></Entry>
     <Button Text="Login" x:Name="Submit_button" Clicked="Login_clicked"></Button>
     <StackLayout Orientation="Horizontal" Padding="0,30,0,0">
-      <Label Text="Have not register?" VerticalTextAlignment="Center"></Label>
-      <Button Text="Click here" HeightRequest="40" Clicked="register_clicked" ></Button>
+      <Label Text="Have not registered?" VerticalTextAlignment="Center"></Label>
+      <Button Text="Click here" HeightRequest="50" Clicked="register_clicked" ></Button>
+    </StackLayout>
+    <StackLayout>
+      <Button Text="temp" Clicked="temp_clicked" ></Button>
     </StackLayout>
   </StackLayout>
 </ContentPage>

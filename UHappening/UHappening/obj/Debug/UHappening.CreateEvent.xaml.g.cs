@@ -20,10 +20,13 @@ namespace UHappening {
         private global::Xamarin.Forms.Entry eventName;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry isPrivate;
+        private global::Xamarin.Forms.Switch IsPrivateSwitch;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry eventType;
+        private global::Xamarin.Forms.Picker eventType;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry eventDescription;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry eventlocation;
@@ -41,8 +44,9 @@ namespace UHappening {
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(CreateEvent));
             eventName = this.FindByName<global::Xamarin.Forms.Entry>("eventName");
-            isPrivate = this.FindByName<global::Xamarin.Forms.Entry>("isPrivate");
-            eventType = this.FindByName<global::Xamarin.Forms.Entry>("eventType");
+            IsPrivateSwitch = this.FindByName<global::Xamarin.Forms.Switch>("IsPrivateSwitch");
+            eventType = this.FindByName<global::Xamarin.Forms.Picker>("eventType");
+            eventDescription = this.FindByName<global::Xamarin.Forms.Entry>("eventDescription");
             eventlocation = this.FindByName<global::Xamarin.Forms.Entry>("eventlocation");
             eventStart = this.FindByName<global::Xamarin.Forms.Entry>("eventStart");
             eventEnd = this.FindByName<global::Xamarin.Forms.Entry>("eventEnd");

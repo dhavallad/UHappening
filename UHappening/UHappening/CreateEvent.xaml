@@ -1,42 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UHappening.CreateEvent">
-  <ContentPage.Resourse>
+             x:Class="UHappening.CreateEvent"
+             Title="Create Event">
+  <!--<ContentPage.Resource>
     <ResourceDictionary>
       <Style x:Key="CustomEntryStyle" TargetType="Entry">
         <Setter Property="WidthRequest" Value="300"></Setter>
       </Style>
     </ResourceDictionary>
-  </ContentPage.Resourse>
+  </ContentPage.Resource>-->
   <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
-    <StackLayout Padding="30,30,30,50" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
-      <Label Text="Create Event" HorizontalTextAlignment="Center" Font="30" ></Label>
+    <StackLayout Padding="30,20,30,50" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+      <!--<Label Text="Create Event" HorizontalTextAlignment="Center" Font="30" ></Label>-->
       <Grid Padding="0,15,0,0">
         <Entry x:Name ="eventName" WidthRequest="300" Placeholder="Event Name" ></Entry>
       </Grid>
       <!--<Label Text="First Name" ></Label>-->
-      <Grid Padding="0,15,0,0">
-        <Entry x:Name ="isPrivate" Placeholder="Private Event" Style="{StaticResource CustomEntryStyle}" ></Entry>
-      </Grid>
+      <StackLayout Padding="8,15,0,0" Orientation="Horizontal">
+        <Label Text="Private" VerticalTextAlignment="Center" Font="19" ></Label>
+        <Grid  Padding="13,0,0,0">
+          <Switch x:Name="IsPrivateSwitch"></Switch>
+        </Grid>
+        <!--Style="{StaticResource CustomEntryStyle}"-->
+      </StackLayout>
       <!--<Label Text="Last Name" ></Label>-->
       <Grid Padding="0,15,0,0">
-        <Entry x:Name ="eventType" Placeholder="Event Type" Style="{StaticResource CustomEntryStyle}" ></Entry>
+        <Picker x:Name ="eventType" WidthRequest="300" ></Picker>
+      </Grid>
+      <Grid Padding="0,15,0,0">
+        <Entry x:Name ="eventDescription" Placeholder="Description" WidthRequest="300" ></Entry>
+        <!--HeightRequested="30"-->
       </Grid>
       <!--<Label Text="Albany ID" ></Label>-->
       <Grid Padding="0,15,0,0">
-        <Entry x:Name ="eventlocation" Placeholder="Location" Style="{StaticResource CustomEntryStyle}" ></Entry>
+        <Entry x:Name ="eventlocation" Placeholder="Location" WidthRequest="300" ></Entry>
       </Grid>
       <!--<Label Text="Email ID" ></Label>-->
       <Grid Padding="0,15,0,0">
-        <Entry x:Name ="eventStart" Placeholder="Start Time" Style="{StaticResource CustomEntryStyle}" ></Entry>
+        <Entry x:Name ="eventStart" Placeholder="Start Time" WidthRequest="300" ></Entry>
       </Grid>
       <Grid Padding="0,15,0,0">
-        <Entry x:Name ="eventEnd" Placeholder="End Time" Style="{StaticResource CustomEntryStyle}" ></Entry>
+        <Entry x:Name ="eventEnd" Placeholder="End Time" WidthRequest="300" ></Entry>
       </Grid>
       <!--<Label Text="ConfirmPassword" ></Label>-->
       <Grid Padding="0,15,0,0">
-        <Entry x:Name ="eventCapacity" Placeholder="Capacity(Optional)" Style="{StaticResource CustomEntryStyle}" ></Entry>
+        <Entry x:Name ="eventCapacity" Placeholder="Capacity(Optional)" WidthRequest="300" ></Entry>
       </Grid>
       <Grid Padding="0,15,0,0">
         <Button Text="Create Event" Clicked="CreateEventClicked"></Button>
