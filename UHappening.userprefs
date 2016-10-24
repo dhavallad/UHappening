@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{4D858735-409C-4B06-BD35-162B1238E07B}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.UHappening.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UHappening.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CD522658-723A-427B-984F-344B87692E40" />
+  <AuthorInfo Name="dhavallad" Email="dhavallad92@gmail.com" Copyright="(c) Dhaval Lad" Company="" Trademark="" />
+  <DisabledProjects>
+    <String>UHappening/UHappening.WinPhone/UHappening.WinPhone.csproj</String>
+    <String>../GCMSample/GCMSample/GCMSample.csproj</String>
+  </DisabledProjects>
+</Properties>

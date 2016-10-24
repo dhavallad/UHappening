@@ -7,39 +7,42 @@ using Xamarin.Forms;
 
 namespace UHappening
 {
-    public partial class MainPage : ContentPage
-    {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+	public partial class MainPage : ContentPage
+	{
 
-        private /*async*/ void Login_clicked(object sender, EventArgs e)
-        {
-            // do login operation.
-            string username = UserName.Text.ToString();
-            string password = Password.Text.ToString();
+		public MainPage()
+		{
+			//Submit_button.Text = "Sub";
 
-            if (username.ToLower() != "madhusudan" || password != "123")
-            {
-                errorMessage.Text = "Incorrect Credentials";
-            }
-            else
-            {
-                //await Navigation.PushAsync(new Temp());
-                //on successfull login 
-                App.Current.MainPage = new NavigationPage(new HomPage());
-            }
+			InitializeComponent();
+		}
 
-        }
-        private async void register_clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new UserRegister());
-            //App.Current.MainPage = new UserRegister();
-        }
-        private async void temp_clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Temp());
-        }
-    }
+		private /*async*/ void Login_clicked(object sender, EventArgs e)
+		{
+			// do login operation.
+			string username = UserName.Text.ToString();
+			string password = Password.Text.ToString();
+
+			if (username.ToLower() != "madhusudan" || password != "123")
+			{
+				errorMessage.Text = "Incorrect Credentials";
+			}
+			else
+			{
+				//await Navigation.PushAsync(new Temp());
+				//on successfull login 
+				App.Current.MainPage = new NavigationPage(new HomPage());
+			}
+
+		}
+		private async void register_clicked(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync(new UserRegister());
+			//App.Current.MainPage = new UserRegister();
+		}
+		private async void temp_clicked(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync(new Temp());
+		}
+	}
 }

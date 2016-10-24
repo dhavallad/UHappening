@@ -64,6 +64,34 @@
     <Compile Include="Welcome.xaml.cs">
       <DependentUpon>Welcome.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Constants.cs" />
+    <Compile Include="TabPage.xaml.cs">
+      <DependentUpon>TabPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MonkeyDataModel.cs" />
+    <Compile Include="TabbedPageDemoPageCS.cs" />
+    <Compile Include="NonNullToBooleanConverter.cs" />
+    <Compile Include="Behaviours\EmailValidatorBehavior.cs" />
+    <Compile Include="Behaviours\NumberValidatorBehavior.cs" />
+    <Compile Include="DataEntryPage.xaml.cs">
+      <DependentUpon>DataEntryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Behaviours\StarBehavior.cs" />
+    <Compile Include="Behaviours\PickerBehavior.cs" />
+    <Compile Include="Behaviours\MaxLengthValidator.cs" />
+    <Compile Include="ImageResourceExtension.cs" />
+    <Compile Include="GenderConverter.cs" />
+    <Compile Include="RatingConverter.cs" />
+    <Compile Include="NumericValidationPage.xaml.cs">
+      <DependentUpon>NumericValidationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NumericValidationPageCS.cs" />
+    <Compile Include="Behaviours\NumericValidationBehavior.cs" />
+    <Compile Include="Behaviours\LengthValidator.cs" />
+    <Compile Include="EventPageDesc.xaml.cs">
+      <DependentUpon>EventPageDesc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Behaviours\RequiredField.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -74,10 +102,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="TabPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEntryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericValidationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventPageDesc.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
+    <None Include="Images\success.png" />
+    <None Include="Images\star_selected.png" />
+    <None Include="Images\star_outline.png" />
+    <None Include="Images\error.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Welcome.xaml">
@@ -98,12 +142,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System.Data">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.SqlClient">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Data.SqlClient.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.2.127\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
       <Private>True</Private>
@@ -140,6 +178,10 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Behaviours\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:local="clr-namespace:UHappening"
+                  x:Class="UHappening.Welcome"
+                  Title="Home Page" >
+  <!--<Label Text="Some Crap"></Label>-->
+  <MasterDetailPage.Master>
+    <ContentPage Title="Menu"><!--"Title" is a mandatory field in Xamarin Forms-->
+      <StackLayout Orientation="Vertical" VerticalOptions="Center">
+        <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200">
+          <Button Text="Create Event"></Button>
+          <Button Text="My Events"></Button>
+          <Button Text="Private Events"></Button>
+          <Button Text="Public Events"></Button>
+        </StackLayout>
+        <StackLayout VerticalOptions="End" Padding="50" WidthRequest="200">
+          <Button Text="Log Out"></Button>
+        </StackLayout>
+      </StackLayout>
+    </ContentPage>
+  </MasterDetailPage.Master>
+  <MasterDetailPage.Detail>
+    <local:ListView>
+      
+    </local:ListView>
+  </MasterDetailPage.Detail>
+</MasterDetailPage>

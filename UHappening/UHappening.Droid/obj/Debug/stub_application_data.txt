@@ -1,2 +1,2 @@
 android.app.Application
-UHappening.Droid
+com.myapp.uhappen
