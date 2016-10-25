@@ -119,6 +119,9 @@
     <Reference Include="Xamarin.GooglePlayServices.Gcm">
       <HintPath>..\..\packages\Xamarin.GooglePlayServices.Gcm.29.0.0.2\lib\MonoAndroid41\Xamarin.GooglePlayServices.Gcm.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Azure.NotificationHubs.Android">
+      <HintPath>..\..\packages\Xamarin.Azure.NotificationHubs.Android.0.4.0\lib\MonoAndroid403\Xamarin.Azure.NotificationHubs.Android.dll</HintPath>
+    </Reference>
     <Reference Include="GCM.Client">
       <HintPath>..\..\Components\GCMClient-1.0\lib\android\GCM.Client.dll</HintPath>
     </Reference>
@@ -127,12 +130,13 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PushHandlerService.cs" />
     <Compile Include="GcmService.cs" />
     <Compile Include="MyGcmListenerService.cs" />
     <Compile Include="MyInstanceIDListenerService.cs" />
     <Compile Include="QuickstartPreferences.cs" />
     <Compile Include="RegistrationIntentService.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="MyBroadcastReceiver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -207,6 +211,10 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
+    <XamarinComponentReference Include="azure-messaging">
+      <Version>1.2.5.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
     <XamarinComponentReference Include="GCMClient">
       <Version>1.0</Version>
       <Visible>False</Visible>

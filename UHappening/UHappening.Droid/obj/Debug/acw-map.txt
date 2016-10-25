@@ -2,10 +2,6 @@ UHappening.Droid.MainActivity, UHappening.Droid;md5f3737a108ace462470f015240f24c
 UHappening.Droid.MainActivity, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f3737a108ace462470f015240f24ca7b.MainActivity
 UHappening.Droid.MainActivity;md5f3737a108ace462470f015240f24ca7b.MainActivity
 uhappening.droid.MainActivity;md5f3737a108ace462470f015240f24ca7b.MainActivity
-UHappening.Droid.PushHandlerService, UHappening.Droid;md5f3737a108ace462470f015240f24ca7b.PushHandlerService
-UHappening.Droid.PushHandlerService, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f3737a108ace462470f015240f24ca7b.PushHandlerService
-UHappening.Droid.PushHandlerService;md5f3737a108ace462470f015240f24ca7b.PushHandlerService
-uhappening.droid.PushHandlerService;md5f3737a108ace462470f015240f24ca7b.PushHandlerService
 UHappening.Droid.MyGcmListenerService, UHappening.Droid;md5f3737a108ace462470f015240f24ca7b.MyGcmListenerService
 UHappening.Droid.MyGcmListenerService, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f3737a108ace462470f015240f24ca7b.MyGcmListenerService
 UHappening.Droid.MyGcmListenerService;md5f3737a108ace462470f015240f24ca7b.MyGcmListenerService
@@ -18,6 +14,14 @@ UHappening.Droid.RegistrationIntentService, UHappening.Droid;md5f3737a108ace4624
 UHappening.Droid.RegistrationIntentService, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f3737a108ace462470f015240f24ca7b.RegistrationIntentService
 UHappening.Droid.RegistrationIntentService;md5f3737a108ace462470f015240f24ca7b.RegistrationIntentService
 uhappening.droid.RegistrationIntentService;md5f3737a108ace462470f015240f24ca7b.RegistrationIntentService
+UHappening.Droid.MyBroadcastReceiver, UHappening.Droid;md5f3737a108ace462470f015240f24ca7b.MyBroadcastReceiver
+UHappening.Droid.MyBroadcastReceiver, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f3737a108ace462470f015240f24ca7b.MyBroadcastReceiver
+UHappening.Droid.MyBroadcastReceiver;md5f3737a108ace462470f015240f24ca7b.MyBroadcastReceiver
+uhappening.droid.MyBroadcastReceiver;md5f3737a108ace462470f015240f24ca7b.MyBroadcastReceiver
+UHappening.Droid.PushHandlerService, UHappening.Droid;md5f3737a108ace462470f015240f24ca7b.PushHandlerService
+UHappening.Droid.PushHandlerService, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f3737a108ace462470f015240f24ca7b.PushHandlerService
+UHappening.Droid.PushHandlerService;md5f3737a108ace462470f015240f24ca7b.PushHandlerService
+uhappening.droid.PushHandlerService;md5f3737a108ace462470f015240f24ca7b.PushHandlerService
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

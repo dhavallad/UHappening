@@ -2,8 +2,8 @@
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/UHappening.Droid.dll.config
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/UHappening.Droid.dll.mdb
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/UHappening.Droid.dll
-/Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/com.myapp.uhappen.apk
-/Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/bin/com.myapp.uhappen.apk
+/Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/com.app.testpushnotification.apk
+/Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/bin/com.app.testpushnotification.apk
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/res/drawable/icon.png
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/res/drawable-xhdpi/icon.png
@@ -36,7 +36,7 @@
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/res/layout/toolbar.xml
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/res/values/styles.xml
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/R.cs.flag
-/Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/com.myapp.uhappen-Signed.apk
+/Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/com.app.testpushnotification-Signed.apk
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/uploadflags.txt
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/UHappening.Droid.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/UHappening.Droid.dll.mdb
@@ -57,6 +57,7 @@
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/Xamarin.GooglePlayServices.Base.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/Xamarin.GooglePlayServices.Measurement.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/Xamarin.GooglePlayServices.Gcm.dll
+/Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/Xamarin.Azure.NotificationHubs.Android.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/GCM.Client.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/UHappening.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/bin/Debug/UHappening.dll.mdb

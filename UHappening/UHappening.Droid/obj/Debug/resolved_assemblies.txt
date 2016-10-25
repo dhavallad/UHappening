@@ -16,6 +16,7 @@
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Base.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Measurement.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Gcm.dll
+/Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/assets/Xamarin.Azure.NotificationHubs.Android.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/assets/GCM.Client.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/assets/Mono.Android.dll
 /Users/dhavallad/Documents/Project/UHappening/UHappening/UHappening.Droid/obj/Debug/android/assets/mscorlib.dll

@@ -2,7 +2,7 @@ package md5f3737a108ace462470f015240f24ca7b;
 
 
 public class PushHandlerService
-	extends mono.android.app.IntentService
+	extends md5214eafb7e7b3b7fcc363a68a6358563f.GcmServiceBase
 	implements
 		mono.android.IGCUserPeer
 {
@@ -10,7 +10,6 @@ public class PushHandlerService
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onHandleIntent:(Landroid/content/Intent;)V:GetOnHandleIntent_Landroid_content_Intent_Handler\n" +
 			"";
 		mono.android.Runtime.register ("UHappening.Droid.PushHandlerService, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", PushHandlerService.class, __md_methods);
 	}
@@ -31,13 +30,12 @@ public class PushHandlerService
 			mono.android.TypeManager.Activate ("UHappening.Droid.PushHandlerService, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-
-	public void onHandleIntent (android.content.Intent p0)
+	public PushHandlerService (java.lang.String[] p0) throws java.lang.Throwable
 	{
-		n_onHandleIntent (p0);
+		super ();
+		if (getClass () == PushHandlerService.class)
+			mono.android.TypeManager.Activate ("UHappening.Droid.PushHandlerService, UHappening.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "System.String[], mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", this, new java.lang.Object[] { p0 });
 	}
-
-	private native void n_onHandleIntent (android.content.Intent p0);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

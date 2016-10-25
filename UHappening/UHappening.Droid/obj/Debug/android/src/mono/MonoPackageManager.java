@@ -116,6 +116,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Measurement.dll",
 		"Xamarin.GooglePlayServices.Gcm.dll",
+		"Xamarin.Azure.NotificationHubs.Android.dll",
 		"GCM.Client.dll",
 		"System.Runtime.dll",
 		"UHappening.dll",

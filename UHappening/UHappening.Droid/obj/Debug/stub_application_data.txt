@@ -1,2 +1,2 @@
 android.app.Application
-com.myapp.uhappen
+com.app.testpushnotification
